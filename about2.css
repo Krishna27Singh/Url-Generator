@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: black; */
+    color: white;
+}
+
+.container{
+    background-color: black;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4vmin;
+    gap: 4vmin;
+}
+
+h1{
+    position: relative;
+    top: -2vh;
+}
+
+h3{
+    position: relative;
+    top: -0vh;
+}
+
+.content{
+    position: relative;
+    top: 2vh;
+}
+
+.tech{
+    color: black;
+    position: relative;
+    top: 12vh;
+    left: 18.5vmin;
+}
+
+img{
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+    top: 5vh;
+}
+
+.container2{
+    display: flex;
+    gap: 20vw;
+    /* align-items: center; */
+
+}
+
+.list{
+    padding: 3vmin;
+}

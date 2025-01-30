@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: rgb(178, 228, 253); */
+    background: linear-gradient(to bottom, rgb(178, 228, 253), rgb(206 232 251));
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    /* gap: 5vw; */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.part2{
+    display: flex;
+    gap: 4vw; 
+    padding: 10px;
+    align-items: center;
+    font-size: 2.2vmin;
+}
+
+h1{
+    padding: 10px;
+    font-family: "Roboto", serif;
+}
+
+img{
+    height: 50vh;
+    width: 50vw;
+}
+
+.nextpart{
+    font-family: "Roboto", serif;
+}
+
+.welcome{
+    position: relative;
+    font-size: 4vmin;
+    padding: 6vmin;
+    top: -2vmin;
+}
+
+.parent{
+    display: flex;
+    position: relative;
+    top: 5vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.line1{
+    position: relative;
+    font-size: 2vmin;
+    top: -11vmin;
+    padding: 8vmin;
+}
+
+.line2{
+    padding: 8vmin;
+    position: relative;
+    top: -22vmin;
+}
+
+.bold{
+    font-style: bold;
+    font-weight: 1000;
+}
+
+.trynow1{
+    padding: 1vmin;
+    border-radius: 1vmin;
+    background-color: rgb(216, 191, 216);
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.trynow{
+    color: black;
+    text-decoration: none;
+
+}
+
+.trynow1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.github1{
+    padding: 1vmin;
+    border-radius: 1vmin;
+    background-color: rgb(216, 191, 216);
+    border: 0.5px solid black;
+    cursor: pointer;
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+}
+
+.github{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.github1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home{
+    cursor: pointer;
+    /* text-decoration: none; */
+    color: white;
+}
+
+.github1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contactus{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.home, .about, .contactus {
+    text-decoration: none !important; /* Or any desired value */
+    color: white;
+}

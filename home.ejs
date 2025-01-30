@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkLoom</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: linear-gradient(to left, #434343, #000000);
+            color: white;
+            height: 100vh;
+
+        }
+        .wholebody{
+            display: flex;
+            flex-direction: column;
+            gap: 5vmin;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1{
+            font-size: 7vmin;
+            top: -8vmin;
+            position: relative;
+        }
+        input{
+            padding: 1.2vmin 1.7vmin;
+            font-size: 2.3vmin;
+            border-radius: 0.8vmin;
+        }
+        button{
+            padding: 1.2vmin 1.7vmin;
+            font-size: 2.3vmin;
+            border-radius: 0.8vmin;
+            cursor: pointer;
+        }
+        .text1{
+            position: relative;
+            top:4.5vh;
+            right: 4vw;
+            font-size: 2.3vmin;
+        }
+        .text3{
+            font-size:3.5vmin;
+        }
+    </style>
+</head>
+<body>
+    <div class="wholebody">
+    <h1>Welcome to LinkLoom</h1>
+
+        <label class="text1">Enter your Original URL</label>
+        <form class="tex2" method="POST" action="/url" > 
+            <input type="text" name = "url" placeholder="https://example.com">
+            <button type="submit">Shorten</button>
+        </form>
+
+        
+        <% if (locals.id) { %>
+            <p class="text3">Your Shortened URL is : http://localhost:8001/<%= id %></p>
+        <% } %>
+    
+    </div>
+</body>
+</html>
